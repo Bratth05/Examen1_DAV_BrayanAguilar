@@ -2,5 +2,8 @@
 {
     public class FoodTruck
     {
+        public Guid Id { get; private set; }
+        public string Nombre { get; private set; }
+        public string UbicacionActual { get; private set; }
     }
 }
